@@ -1,5 +1,4 @@
-
-  const COUNTRIES = [
+const COUNTRIES = [
   { code: "PH", name: "Philippines",    capital: "Manila",       region: "Asia",    population: 113_880_000, flag: "🇵🇭" },
   { code: "JP", name: "Japan",          capital: "Tokyo",        region: "Asia",    population: 125_700_000, flag: "🇯🇵" },
   { code: "US", name: "United States",  capital: "Washington DC", region: "Americas", population: 331_900_000, flag: "🇺🇸" },
