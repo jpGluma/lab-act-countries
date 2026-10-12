@@ -1,4 +1,5 @@
-import { Outlet } from "react-router";
+import { Link } from "react-router";
+import { Link, Outlet } from "react-router";
 
 const Layout = () => {
   return (
@@ -10,21 +11,21 @@ const Layout = () => {
         </div>
 
         <div className="flex gap-5">
-          <a href="/">
+          <Link to="/">
             <p className="text-[12px]">Home</p>
-          </a>
+          </Link>
 
-          <a href="/countries">
+          <Link to="/countries">
             <p className="text-[12px]">Countries</p>
-          </a>
+          </Link>
 
-          <a href="/bucket-list">
+          <Link to="/bucket-list">
             <p className="text-[12px]">Bucket List</p>
-          </a>
+          </Link>
 
-          <a href="/about">
+          <Link to="/about">
             <p className="text-[12px]">About</p>
-          </a>
+          </Link>
         </div>
       </nav>
 
