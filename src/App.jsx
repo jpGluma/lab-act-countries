@@ -6,6 +6,7 @@ import BucketListPage from "./pages/BucketListPage";
 import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
+
 const App = () => {
   return (
     <Routes>
